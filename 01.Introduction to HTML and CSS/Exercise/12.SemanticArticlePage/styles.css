@@ -1,0 +1,16 @@
+body {
+    background-color: #e4e978;
+    width: 700px
+}
+
+.element {
+    margin: 15px;
+    padding: 15px;
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+}
+
+.comment {
+    font-style: italic;
+    color: #5c6e91;
+}
