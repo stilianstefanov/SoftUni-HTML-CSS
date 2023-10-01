@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@300&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Righteous&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Oswald:wght@300&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Righteous&family=Tilt+Prism&display=swap');
+
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
