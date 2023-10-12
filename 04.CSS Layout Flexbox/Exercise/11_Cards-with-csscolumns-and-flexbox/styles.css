@@ -10,6 +10,7 @@ body {
     max-width: 40vw;
     margin: 5em auto;
     gap: 1em;
+    justify-content: center;
 }
 
 .card {
