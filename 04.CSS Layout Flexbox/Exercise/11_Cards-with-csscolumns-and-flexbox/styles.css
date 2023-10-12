@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40vw;
+    margin: 5em auto;
+    gap: 1em;
+}
+
+.card {
+    flex: 0 1 13em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.card > section {
+    flex: 1 0 auto;
+    padding: 1em;
+}
+
+.card > footer {
+    border-top: 1px solid black;
+    padding: 1em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
