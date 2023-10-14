@@ -1,0 +1,6 @@
+@media (min-width: 600px) {
+    code:hover {
+        background-color: black;
+        color: white;
+    }
+}
