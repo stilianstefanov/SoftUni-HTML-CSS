@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Merriweather:wght@300&family=Oswald:wght@300&family=Poppins&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Righteous&family=Tilt+Prism&family=Work+Sans:wght@700&display=swap');
+
+html {
+    font-family: Poppins;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.site {
+    margin: 0 auto;
+    padding: 2em 5em;
+    max-width: 90em;
+}
+
+h2, .site > p {
+    text-align: center;
+}
+
+h2 span {
+    color: #327DC4;
+}
+
+.site-content {
+    display: flex;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.site-content article {
+    flex: 1 1 30%;
+    border-radius: 1em;
+    background-color: #819DAF;
+}
+
+.content {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.content p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.content a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #327DC4;
+    padding: 0.3em 1.2em;
+    border-radius: 1em;
+}
