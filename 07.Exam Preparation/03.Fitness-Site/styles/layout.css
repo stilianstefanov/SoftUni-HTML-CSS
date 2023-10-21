@@ -1,0 +1,192 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+.top-bar {
+    background-color: #D01919;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+.top-bar .container i {
+    padding-right: 0.8em;
+}
+
+.top-bar .container ul {
+    display: flex;
+    list-style: none;
+}
+
+.top-bar .container ul li a {
+   color: white;
+}
+
+.top-bar .container ul li span {
+    display: none;
+}
+
+.header-whole {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url(../image/fitness-main.jpg);
+    background-position: center;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding-top: 2em;
+    padding-right: 1em;
+}
+
+.navigation ul li{
+    padding-left: 3.5em;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-banner .container {
+    color: white;
+    text-align: center;
+    padding-top: 9em;
+    padding-bottom: 10em;
+}
+
+.section-banner .container h2 {
+    font-size: 37px;
+    letter-spacing: 5px;
+}
+
+.section-banner .container p {
+    max-width: 52ch;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+ }
+
+ .section-banner .container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #D01919;
+    padding: 0.5em 1.1em;
+    border-radius: 9px;
+ }
+
+ .welcome h4 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 20px;
+ }
+
+ .red-bar {
+    display: block;
+    margin: 1em auto;
+    width: 5ch;
+    height: 2px;
+    background: #D01919;
+ }
+
+ .welcome {
+    padding-bottom: 3em;
+ }
+
+ .welcome .container {
+    display: flex;
+    gap: 12em;
+ }
+
+ .welcome-article {
+    flex: 1 1 30%;
+    text-align: center;
+ }
+
+ .welcome img {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+
+ .welcome .media {
+    max-width: 5em;
+    overflow: hidden;
+    margin: 0 auto;
+ }
+
+ .welcome-article h6 {
+    color: #D01919;
+    padding-top: 1em;
+    padding-bottom: 1em;
+ }
+
+ .coaches h4 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 20px;
+ }
+
+ .coaches {
+    background-color: #EFEFEF;
+    padding-bottom: 4em;
+ }
+
+ .coaches .container {
+    display: flex;
+    gap: 12em;
+ }
+
+ .coaches-article {
+    flex: 1 1 30%;
+    text-align: center;
+ }
+
+ .coaches img {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+
+ .coaches .media {
+    max-width: 20em;
+    overflow: hidden;
+    margin: 0 auto;
+ }
+
+ .coaches-article h6 {
+    font-size: 16px;
+    padding-top: 1em;
+ }
+
+.coaches-article p:first-of-type {
+    color: #D01919;
+    padding-top: 0.5em;
+    padding-bottom: 0.7em;
+    font-weight: bold;
+}
+ 
+.coaches-article :nth-child(4) {
+    display: block;
+    margin: 0 auto;
+    color: #A6A1AC;
+    max-width: 30ch;
+}
+
+.section-footer {
+    background-color: #D01919;
+    text-align: center;
+}
