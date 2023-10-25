@@ -30,6 +30,7 @@ header ul li {
 header ul li a {
     display: block;
     text-decoration: none;
+    color: black;
 }
 
 aside {
